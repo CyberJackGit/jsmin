@@ -67,7 +67,7 @@ class JavascriptMinify(object):
     to an output stream
     """
 
-    def __init__(self, instream=None, outstream=None, quote_chars="'\""):
+    def __init__(self, instream=None, outstream=None, quote_chars="'\"`"):
         self.ins = instream
         self.outs = outstream
         self.quote_chars = quote_chars
